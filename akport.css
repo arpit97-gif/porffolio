@@ -1,3 +1,8 @@
+*
+{
+    margin: 0rem;
+    padding: 0rem;
+}
 body{
     background-color:#26231E ;
     width: 100%;
@@ -61,9 +66,10 @@ h2,h3{
 }
 #mywork
 {
-    height: auto;
-    padding: 50px;
- margin-top:10px;
+    display: flex;
+    justify-content: space-around;
+flex-wrap:wrap;
+
 }
 
 .wrklik
